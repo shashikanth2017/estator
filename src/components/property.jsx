@@ -6,8 +6,8 @@ import {BsGridFill} from 'react-icons/bs';
 import {GoVerified} from 'react-icons/go';
 import millify from "millify";
 import defaultphoto from '../components/default.jpeg';
-const Property=({properties:{coverPhoto,price,rentFrenquency,rooms,title,baths,area,agency,isVerified,externaLId}})=>(
-    <Link href={`properties/${externaLId}`} passhref>
+const Property=({properties:{coverPhoto,price,rentFrenquency,rooms,title,baths,area,agency,isVerified,externalID}})=>(
+    <Link href={`properties/${externalID}`} passhref>
        <Flex flexWrap={"wrap"} width={"5000"} justifyContent={"flex-start"} cursor={"pointer"} p={"5"} paddingTop={"0.5"}>
 
         <Box>

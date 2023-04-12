@@ -47,17 +47,17 @@ export default function Home({propertiesForRent,propertiesForSale}) {
       imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcX3Ap7I1bbpHIXQLNzxustoWywn2sgkS9GQ&usqp=CAU"    
       />
       </div>
-        <div className='fl'>
+        {/* <div className='fl'>
 
         {propertiesForRent.map(((property)=><Property properties={property} key={property.id}/>))}
         </div>
-   
+    */}
     
       
      
-      <div className='fl'>
+      {/* <div className='fl'>
       {propertiesForSale.map(((property)=><Property properties={property} key={property.id}/>))}
-      </div>
+      </div> */}
       </Box>
       </>
 

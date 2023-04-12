@@ -14,7 +14,7 @@ import {Fikey} from 'react-icons/fi';
             <Menu>
                 <MenuButton as={IconButton} icon={<FcMenu/>} varient="outlined" color={"red"} />
                 <MenuList>
-                    <Link href={"/"} passhref>
+                    <Link href={"/"} passhref='True'>
                         <MenuItem icon={<FcHome/>}>Home</MenuItem>
                     </Link>
                     <Link href={"/search"} passhref>
