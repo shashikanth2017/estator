@@ -11,8 +11,7 @@ import { baseUrl, fetchApi } from "@/utils/fetchAPI";
     const[searchfilter,setsearchfilter]=useState(false);
     const route=useRouter();
     return(
-      console.log(proper),
-        <>  
+              <>  
         <Box>
             <Flex cursor={"pointer"} bg={"gray.100"} borderBottom={"1px"}   borderColor={"gray.300"} p={"2"} 
             fontWeight={"black"} fontSize={"lg"} justifyContent={"center"} alignItems={"center"}
@@ -26,7 +25,7 @@ import { baseUrl, fetchApi } from "@/utils/fetchAPI";
           <div className="dis">
             {/* {(route.query.purpose=="for-sale")?prop?.map(((property)=><Property properties={property} key={property.id}/>)):pro?.map(((property)=><Property properties={property} key={property.id}/>))} */}
             </div>
-            <section className="dis">
+            <section className="grid grid-cols-4 space-x-3 items-center mx-auto justify-center mt-10">
             {/* <Flex> */}
             {proper.map(((property)=><Property properties={property} key={property.id}/>))}
             {/* </Flex> */}
