@@ -21,7 +21,7 @@ import { baseUrl, fetchApi } from "@/utils/fetchAPI";
 
             </Flex>
             {searchfilter&&<Searchfilter/>}
-            <Text fontSize={"2xl"} p={"4"} fontWeight={"bold"} alignItems={"center"} alignContent={"center"}> Properties "{route.query.purpose}"</Text>
+            <Text fontSize={"2xl"} p={"4"} fontWeight={"bold"} alignItems={"center"} alignContent={"center"}> Properties {route.query.purpose}</Text>
           <div className="dis">
             {/* {(route.query.purpose=="for-sale")?prop?.map(((property)=><Property properties={property} key={property.id}/>)):pro?.map(((property)=><Property properties={property} key={property.id}/>))} */}
             </div>
