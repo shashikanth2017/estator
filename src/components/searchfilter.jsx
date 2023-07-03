@@ -1,8 +1,7 @@
 import { useEffect,useState } from "react";
 import { Box,Flex,Button,Icon,Select,Text,Input,Spinner } from "@chakra-ui/react";
 import { Router, useRouter } from "next/router";
-import {MdCancel} from "react-icons/md"
-import Image from "next/image";
+
 import { filterData,getFilterValues } from "@/utils/filterdata";
 
  

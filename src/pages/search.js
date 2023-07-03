@@ -14,8 +14,8 @@ import { baseUrl, fetchApi } from "@/utils/fetchAPI";
               <>  
         <Box>
             <Flex cursor={"pointer"} bg={"gray.100"} borderBottom={"1px"}   borderColor={"gray.300"} p={"2"} 
-            fontWeight={"black"} fontSize={"lg"} justifyContent={"center"} alignItems={"center"}
-            onClick={()=>setsearchfilter((prevfilter)=>!prevfilter)}>
+            fontWeight={"black"} fontSize={"lg"} justifyContent={"center"} alignItems={"center"} className="sm:w-auto mx-auto"
+            onClick={()=>setsearchfilter((prevfilter)=>!prevfilter)} >
                 <Text>Search filter is here</Text>
                 <Icon paddingLeft={"2"} w={"7"} as={BsFilter}/>
 

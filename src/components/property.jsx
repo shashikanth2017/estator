@@ -8,7 +8,7 @@ import millify from "millify";
 import defaultphoto from '../components/default.jpeg';
 const Property=({properties:{coverPhoto,price,rentFrenquency,rooms,title,baths,area,agency,isVerified,externalID}})=>(
     <Link href={`properties/${externalID}`} passhref>
-       <Flex flexWrap={"wrap"} width={"5000"} justifyContent={"flex-start"} cursor={"pointer"} p={"5"} paddingTop={"0.5"}>
+       <Flex flexWrap={"wrap"} width={"5000"} justifyContent={"flex-start"} cursor={"pointer"} p={"5"} paddingTop={"0.5"} className="sm:flex-col mx-auto mt-3 p-2">
 
         <Box>
             <Image src={coverPhoto? coverPhoto.url:defaultphoto} width={"450"} height={"260"} alt="house"/>
